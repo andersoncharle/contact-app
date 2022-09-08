@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/blackmitnick/contact-app" target="_blank">Contact App</a></p>
+<h1 align="center"><a href="https://github.com/blackmitnick/contact-app" target="_blank">Contact App</a></h1>
 <!-- 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
