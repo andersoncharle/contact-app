@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -22,7 +23,8 @@ class ContactController extends Controller
 
     public function show($id)
     {
-        return view('contacts.show');
+        $contact = Contact::find($id);
+        return view('contacts.show',compact('contact'));
     }
 
     public function edit($id)
