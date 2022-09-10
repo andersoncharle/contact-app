@@ -47,7 +47,7 @@
     </div>
 </nav>
                    {{--content--}}
-<main>
+<main class="py-5">
     @yield('content')
 </main>
 <script src="{{asset('js/jquery.min.js')}}"></script>
