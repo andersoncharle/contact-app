@@ -22,7 +22,7 @@ class ContactFactory extends Factory
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
 
-            'company_id' => Company::factory(),
+            'company_id' => Company::pluck('id')->random()
         ];
     }
 }
