@@ -12,6 +12,16 @@ class Contact extends Model
     protected $fillable = ['first_name','last_name','phone','email','address'];
     public function company(): BelongsTo
     {
-        return $this->belongsTo(Companies::class);
+        return $this->belongsTo(Company::class);
     }
 }
+
+// $contact3 = [
+//     "first_name"=>"coderajulius",
+//     "last_name"=>"code",
+//     "phone"=>"07134560983",
+//     "email"=>"julius@gmail.com",
+//     "address"=>"julius address",
+// ];
+//     "company_id" => $company -> id
+//$contact ='';
